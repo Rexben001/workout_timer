@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:#181c22;
+    color: #989898;
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    height: 85vh;
+}
+.displayTime{
+    font-size: 5rem;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 2rem;
+
+}
+
+#start, #stop{
+    font-size: 2rem;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#start:hover, #stop:hover{
+    background: rgba(0,0,0, 0.3);
+    color: azure;
+
+    
+}
+
